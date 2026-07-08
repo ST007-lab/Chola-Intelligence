@@ -1,28 +1,24 @@
-# CHOLA Intelligence Platform v1.4
+# CHOLA AI Workspace (v1.4)
+CHOLA is a responsive, white and dark-themed AI workspace built for text conversations, document analysis, and AI image generation. It runs entirely in the browser, featuring cross-chat memory, real-time web search fallback, and a built-in canvas downloader for exported media workflows.
 
-CHOLA is a responsive, high-fidelity flagship AI workspace interface configured for contextual text conversations, deep multi-modal document analysis, and native AI image generation pipelines. 
+## Core Features
+Text & Image Generation: Seamlessly switch between chatting/analyzing documents via Llama-4 or generating images using the FLUX engine via Pollinations.ai.
 
-Built with an elegant dark-theme design layout (and a daytime toggle option), CHOLA features a cross-chat persistent memory layer and an integrated canvas downloader for media workflows.
+Accurate PDF Parsing: Built-in PDF reader powered by PDF.js that extracts text directly from the document layout, bypassing standard web-scraping blocks.
 
-## 🚀 Key Features
+Persistent Memory: Local storage keeps track of your context, preferences, and background metrics across different chat sessions.
 
-- **Dual Interaction Modalities:** Supports seamless text/document processing via Llama-4 or direct image generation utilizing the FLUX rendering cluster via Pollinations AI.
-- **High-Fidelity PDF Parsing:** Embedded structural matrix text extraction via viewport text-node layer analysis (powered by `PDF.js`), bypassing standard web-scraping limitations.
-- **Cross-Conversational Memory Bank:** Localized persistent context metrics track cross-chat background metrics sequentially.
-- **Real-Time Knowledge Expansion:** Instant contextual feed fetching integrated natively through open-namespace search API fallbacks (e.g., Wikipedia).
-- **Dual Language Architecture:** Dynamic interface transformation switching between comprehensive English and localized Tamil (தமிழ்) UI rules.
+Live Search Integration: Instantly fetches live web context and facts through open-namespace search APIs (like Wikipedia) when needed.
 
----
+Bilingual Interface: Supports an instant UI toggle between full English and localized Tamil (தமிழ்).
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Libraries
+Frontend: Vanilla HTML5, CSS3 (Custom Properties), and Modern Asynchronous JavaScript.
 
-- **Frontend Core:** Pure HTML5, CSS3 Custom Properties (CSS variables), and asynchronous vanilla JavaScript.
-- **Typography Matrix Processing:** [PDF.js v3.4.120](https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js) (Cloudflare CDN distribution).
-- **Core LLM Orchestration:** `meta-llama/llama-4-scout-17b-16e-instruct` hosted via Groq Cloud API endpoints.
-- **Media Engine:** FLUX-1 architecture layers provided by Pollinations AI.
+PDF Engine: PDF.js v3.4.120 (via Cloudflare CDN).
 
----
+LLM Orchestration: running on Groq Cloud.
 
-## 💻 Local Setup & Deployment
+# THANK YOU !!!
 
-Since CHOLA is entirely self-contained within an asynchronous client-side structure, it does not require an active Node.js server to deploy locally.
+Image Pipeline: FLUX-1 model hosted via Pollinations.ai.
